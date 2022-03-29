@@ -59,3 +59,47 @@
                     })
             }, [])
         
+
+
+## Video 9
+###     51-9 Module Summary and react spring animation
+
+
+### react animation
+
+
+## react spring code run
+
+    npm install react-spring
+
+## import code : 
+
+        import { useSpring, animated } from 'react-spring'
+
+
+
+
+
+
+###  code example 
+
+        import { useSpring, animated } from 'react-spring'
+        
+        import React, { useState } from 'react';
+
+        <!-- for animation  -->
+        function App() {
+
+        const [flip, set] = useState(false)
+        const props = useSpring({
+            to: { opacity: 1 },
+            from: { opacity: 0 },
+            reset: true,
+            reverse: flip,
+            delay: 200,
+            onRest: () => set(!flip),
+        })
+        
+
+        return ( <animated.div style={props}>I will fade in</animated.div>  )
+
