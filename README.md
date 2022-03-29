@@ -84,7 +84,7 @@
 ###  code example 
 
         import { useSpring, animated } from 'react-spring'
-        
+
         import React, { useState } from 'react';
 
         <!-- for animation  -->
