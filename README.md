@@ -31,12 +31,12 @@
 ## Video 8
 ###     51-8 Axios, data extraction and data processing bar chart
 
-### site Name
-    Axios Js
+### site Name 
+    Axios Js        the  another way fetch
 
 ## axirs instal:
 
-
+        npm install axios
 
 
 ### code use system:
