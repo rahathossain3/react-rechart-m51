@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
-import MyLineChart from './componetst/MyLineChart/MyLineChart';
+import MyLineChart from './components/MyLineChart/components';
+import SpecialChart from './components/SpecialChart/SpecialChart';
 
 function App() {
   return (
     <div className="App">
       <MyLineChart></MyLineChart>
+      <SpecialChart></SpecialChart>
     </div>
   );
 }
